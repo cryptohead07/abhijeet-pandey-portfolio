@@ -56,7 +56,7 @@ export default function Home() {
 
       <section className="lab section"><p className="eyebrow">04 / Lab</p><div><h2>Experiments<br /><em>in progress.</em></h2><p>A space for interfaces, prototypes, and practical ideas that are still becoming.</p></div></section>
 
-      <section className="contact section" id="contact" aria-labelledby="contact-title"><p className="eyebrow">05 / Contact</p><h2 id="contact-title">Have a problem<br />worth <em>building for?</em></h2><div className="contact-links"><a className="button button-primary" href="https://www.linkedin.com/in/cryptohead07" target="_blank" rel="noreferrer">Start a conversation <Arrow /></a><a className="inline-link" href="https://github.com/cryptohead07" target="_blank" rel="noreferrer">GitHub <Arrow /></a><a className="inline-link" href="https://www.linkedin.com/in/cryptohead07" target="_blank" rel="noreferrer">LinkedIn <Arrow /></a></div></section>
+      <section className="contact section" id="contact" aria-labelledby="contact-title"><p className="eyebrow">05 / Contact</p><h2 id="contact-title">Have a problem<br />worth <em>building for?</em></h2><div className="contact-links"><a className="button button-primary" href="mailto:vibtishventures@gmail.com">Start a conversation <Arrow /></a><a className="inline-link" href="mailto:vibtishventures@gmail.com">Email <Arrow /></a><a className="inline-link" href="https://github.com/cryptohead07" target="_blank" rel="noreferrer">GitHub <Arrow /></a><a className="inline-link" href="https://www.linkedin.com/in/cryptohead07" target="_blank" rel="noreferrer">LinkedIn <Arrow /></a></div></section>
 
       <footer><span>© {new Date().getFullYear()} Abhijeet Pandey</span><span>VibTish Ventures</span><a href="#top">Back to top ↑</a></footer>
     </main>

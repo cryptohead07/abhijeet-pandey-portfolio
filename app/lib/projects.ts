@@ -14,8 +14,11 @@ export const projects: Project[] = [
   {
     slug: "ostryn",
     name: "Ostryn",
-    eyebrow: "Product exploration",
-    description: "A product in the portfolio system, ready for its case-study context.",
+    eyebrow: "VibTish Ventures · software systems",
+    description: "A software studio building ERP systems, AI automation, and full-stack products for schools, institutions, and SMBs.",
+    role: "Founder & CEO",
+    technologies: ["Next.js", "React", "Tailwind CSS", "Cloudflare"],
+    href: "https://tech.vibtish.com",
     visual: "ostryn",
   },
   {
