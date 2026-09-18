@@ -11,13 +11,8 @@ npm install
 npm run dev
 ```
 
-## Deploy to Cloudflare Workers
+## Deploy to Cloudflare Pages
 
-Build the Worker bundle, then deploy the generated Wrangler configuration from `dist/server`.
+In Cloudflare Pages, connect the GitHub repository and set the build command to `npm run build` and the output directory to `dist/client`.
 
-```bash
-npm run build
-npx wrangler deploy --config dist/server/wrangler.json
-```
-
-The site has no authentication, database, or runtime bindings. It is intended to be publicly accessible once deployed through your Cloudflare account.
+The build is a static export: it has no authentication, database, or runtime bindings.
