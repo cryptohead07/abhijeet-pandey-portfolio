@@ -44,7 +44,7 @@ export default function Home() {
         <p className="hero-intro">I build digital products, software, systems, and experiences that turn real problems into useful things.</p>
         <div className="hero-actions"><a className="button button-primary" href="#work">Explore the portfolio</a><div className="social-row" aria-label="Contact links">{links.map(({ label, href, icon: Icon }) => <a key={label} href={href} target={href.startsWith("http") ? "_blank" : undefined} rel={href.startsWith("http") ? "noreferrer" : undefined} aria-label={label}><Icon size={19} strokeWidth={1.7} /></a>)}</div></div>
       </div>
-      <div className="hero-art" aria-hidden="true" data-reveal><div className="art-grid" /><div className="art-orbit orbit-one" /><div className="art-orbit orbit-two" /><div className="art-core"><span>AP</span><small>From signal<br />to system</small></div><p className="art-label">Digital craft / product thinking</p></div>
+      <div className="hero-art portrait-frame" data-reveal><img className="hero-portrait" src="/editorial-portrait-spectacles.png" alt="Abhijeet Pandey" /><p className="art-label">Digital craft / product thinking</p></div>
       <aside className="hero-notes" aria-label="About Abhijeet" data-reveal><div className="note-hop"><p className="eyebrow">Principle</p><p>Useful, considered work that earns its place.</p></div><div className="note-hop"><p className="eyebrow">Currently</p><p>Shipping software, commerce, and AI-led tools.</p></div><div className="note-hop"><p className="eyebrow">Based in</p><p>Chennai, India<br />Working globally.</p></div></aside>
     </section>
 
